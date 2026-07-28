@@ -388,7 +388,7 @@ export default function Home() {
                   onClick={() =>
                     window.open(
                       "mailto:contact@fontoms.com?subject=Contact depuis le portfolio&body=Bonjour Fontom's,%0D%0A%0D%0AJe vous contacte depuis votre portfolio...",
-                      "_blank"
+                      "_blank",
                     )
                   }
                 >
@@ -457,9 +457,9 @@ export default function Home() {
                 {
                   title: "CyberCompanion",
                   description:
-                    "Bot Discord français nouvelle génération avec IA intégrée",
+                    "Bot Discord français nouvelle génération : musique, modération, économie, tickets et salons vocaux temporaires",
                   icon: "🤖",
-                  stats: "65+ serveurs",
+                  stats: "160+ serveurs",
                   gradient: "from-blue-400 to-purple-500",
                   link: "https://cybercompanion.fr/",
                 },
@@ -530,8 +530,8 @@ export default function Home() {
                         borderColor: project.gradient.includes("blue")
                           ? "#3b82f6"
                           : project.gradient.includes("orange")
-                          ? "#f97316"
-                          : "#10b981",
+                            ? "#f97316"
+                            : "#10b981",
                       }}
                     >
                       {project.stats}

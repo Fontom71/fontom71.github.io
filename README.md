@@ -35,7 +35,7 @@ Portfolio moderne développé avec Next.js 15, TypeScript, Tailwind CSS et Frame
 
 ### Page projets (`/projets`)
 
-- **CyberCompanion** : Bot Discord IA (65+ serveurs)
+- **CyberCompanion** : Bot Discord français (160+ serveurs, 20k+ utilisateurs)
 - **The Mechanic Community** : Communauté automobile (Modérateur & Développeur)
 - **Ami en Tête** : Plateforme d'entraide (Administrateur & Responsable technique)
 

@@ -65,41 +65,46 @@ export default function Projets() {
 
   const cybercompanionFeatures = [
     {
-      title: "Modération Avancée",
+      title: "Sécurité Avancée",
       description:
-        "Système d'avertissements, anti-spam, anti-raid avec logs détaillés",
+        "Anti-spam, anti-raid, détection d'alts, filtrage de contenu, sanctions temporaires et logs détaillés",
       icon: "🛡️",
       color: "from-red-400 to-pink-500",
     },
     {
-      title: "Système de Niveaux",
-      description: "Cartes personnalisables, rôles automatiques, classements",
+      title: "Niveaux et XP",
+      description:
+        "Progression textuelle et vocale avec classements, récompenses, cartes personnalisables et rôles automatiques",
       icon: "📊",
       color: "from-blue-400 to-cyan-500",
     },
     {
-      title: "Économie & Jeux",
-      description: "Boutique, emplois, paris et divers mini-jeux",
+      title: "Système Économique",
+      description:
+        "Monnaie virtuelle, giveaways, paiements et emplois pour animer la communauté",
       icon: "🎮",
       color: "from-green-400 to-emerald-500",
     },
     {
-      title: "Intelligence Artificielle",
-      description: "Conversations, création d'images, résumé de textes",
-      icon: "🤖",
+      title: "Système de Musique",
+      description:
+        "Intégration YouTube, Spotify, SoundCloud et Deezer pour une expérience musicale complète",
+      icon: "🎵",
       color: "from-purple-400 to-violet-500",
     },
     {
-      title: "Dashboard Web",
-      description: "Interface Next.js pour configurer sans commandes",
-      icon: "💻",
-      color: "from-orange-400 to-red-500",
-    },
-    {
-      title: "Automatisations",
-      description: "Auto-rôles, messages d'accueil, annonces programmées",
+      title: "Événements",
+      description:
+        "Messages de bienvenue/départ personnalisés, suggestions, annonces programmées et système de tickets",
       icon: "⚡",
       color: "from-yellow-400 to-orange-500",
+    },
+    {
+      title: "Dashboard Web",
+      description:
+        "Interface web intuitive pour gérer toutes les fonctionnalités sans commandes complexes",
+      icon: "💻",
+      color: "from-orange-400 to-red-500",
     },
   ];
 
@@ -370,9 +375,9 @@ export default function Projets() {
                 }
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                Mon projet phare : un bot Discord français nouvelle génération
-                qui révolutionne l&apos;expérience des communautés francophones.
-                Développé avec passion depuis 2023.
+                Mon projet phare : un bot Discord français complet avec musique,
+                modération, économie, tickets et salons vocaux temporaires pour
+                animer votre serveur. Développé avec passion depuis 2020.
               </motion.p>
 
               {/* Statistiques CyberCompanion */}
@@ -389,22 +394,22 @@ export default function Projets() {
                 {[
                   {
                     label: "Serveurs",
-                    value: "65+",
+                    value: "160+",
                     color: "from-blue-400 to-cyan-500",
                   },
                   {
                     label: "Utilisateurs",
-                    value: "13k+",
+                    value: "20k+",
                     color: "from-purple-400 to-pink-500",
                   },
                   {
                     label: "Commandes",
-                    value: "50k+",
+                    value: "105+",
                     color: "from-orange-400 to-red-500",
                   },
                   {
                     label: "Disponibilité",
-                    value: "99.7%",
+                    value: "99.9%",
                     color: "from-green-400 to-emerald-500",
                   },
                 ].map((stat, index) => (
